@@ -7,7 +7,7 @@ pipeline {
         ws(dir: '/var/lib/jenkins/demo1') {
           sh '''cd /var/lib/jenkins/demo1
 pwd
-./iac_destroy_new.sh
+sh iac_destroy_new.sh
 '''
         }
         
